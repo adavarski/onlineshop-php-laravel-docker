@@ -83,7 +83,7 @@ Add product: http://localhost:8000/admin/products -> TV product
 
 Register user (new user): ---> Product ->  Add to Chart- -> Purchase -> My Orders
 
-Clean: $ docker-compose up -d
+Clean: $ docker-compose down
 ```
 
 ## About Laravel
