@@ -6,8 +6,7 @@
 
 ### Online Store Laravel Web session:
 
-<img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/laravel-web-session.png
-" width="900">
+<img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/laravel-web-session.png" width="900">
 
 
 ### Docker/PHP:Laravel/nginx/mysql example: local development:
