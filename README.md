@@ -4,6 +4,12 @@
 ### Online Store Software Architecture:
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-software-architecture.png" width="900">
 
+### Online Store Laravel Web session:
+
+<img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/laravel-web-session.png
+" width="900">
+
+
 ### Docker/PHP:Laravel/nginx/mysql example: local development:
 ``` 
 $ docker-compose up -d
