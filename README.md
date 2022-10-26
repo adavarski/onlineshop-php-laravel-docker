@@ -79,9 +79,9 @@ http://localhost:8000/admin
 
 http://localhost:8000/admin/products
 
-ADD : TV panasonic picture
+As admin ADD : TV panasonic picture
 
-Register user: ---> Purchase TV 
+Register user: ---> Purchase TV -> My Orders
 
 ```
 
