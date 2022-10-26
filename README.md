@@ -4,7 +4,7 @@
 ### Online Store Software Architecture
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-software-architecture.png" width="900">
 
-### Docker/PHP/nginx/mysql
+### Docker/PHP/nginx/mysql example: local development
 ``` 
 $ docker-compose up -d
 Status: Downloaded newer image for nginx:alpine
@@ -19,7 +19,6 @@ f9b755fb8bae        onlinestore             "docker-php-entrypoi…"   38 second
 
 $ docker exec -it onlinestore-app rm -rf composer.lock
 $ docker exec -it onlinestore-app composer install
-
 $ docker exec -it onlinestore-app php artisan migrate
 
    INFO  Preparing database.  
@@ -48,6 +47,7 @@ base64:npKVx76GVYs1lNxonOdGYGMp/B5G6JpmiGB3QxuttZc=
 $ grep base .env
 APP_KEY=base64:npKVx76GVYs1lNxonOdGYGMp/B5G6JpmiGB3QxuttZc=
 
+### Admin add:user
 $ docker exec -it onlinestore-app php artisan tinker
 Psy Shell v0.11.8 (PHP 8.1.11 — cli) by Justin Hileman
 >>> $user = new App\Models\User();
@@ -74,12 +74,7 @@ Psy Shell v0.11.8 (PHP 8.1.11 — cli) by Justin Hileman
 >>> exit
 Exit:  Goodbye
 
-http://localhost:8000/admin
-
-
-http://localhost:8000/admin/products
-
-As admin ADD : TV panasonic product
+Add product: http://localhost:8000/admin/products -> TV panasonic product
 
 Register user (new user): ---> Purchase TV -> My Orders
 
