@@ -1,6 +1,4 @@
 
-https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-class-diagram.png
-
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-class-diagram.png" width="900">
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-software-architecture.png" width="900">
 
