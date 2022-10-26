@@ -1,10 +1,10 @@
-### Online Store Class Diagram
+### Online Store Class Diagram:
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-class-diagram.png" width="900">
 
-### Online Store Software Architecture
+### Online Store Software Architecture:
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-software-architecture.png" width="900">
 
-### Docker/PHP:Laravel/nginx/mysql example: local development
+### Docker/PHP:Laravel/nginx/mysql example: local development:
 ``` 
 $ docker-compose up -d
 Status: Downloaded newer image for nginx:alpine
@@ -74,9 +74,9 @@ Psy Shell v0.11.8 (PHP 8.1.11 — cli) by Justin Hileman
 >>> exit
 Exit:  Goodbye
 
-Add product: http://localhost:8000/admin/products -> TV panasonic product
+Add product: http://localhost:8000/admin/products -> TV product
 
-Register user (new user): ---> Purchase TV -> My Orders
+Register user (new user): ---> Product ->  Add to Chart- -> Purchase -> My Orders
 
 ```
 
