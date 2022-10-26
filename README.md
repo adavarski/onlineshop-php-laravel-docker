@@ -4,7 +4,7 @@
 ### Online Store Software Architecture
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-software-architecture.png" width="900">
 
-
+### Docker/PHP/nginx/mysql
 ``` 
 $ docker-compose up -d
 Status: Downloaded newer image for nginx:alpine
