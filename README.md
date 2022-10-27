@@ -1,3 +1,5 @@
+## Online Shop MVC Laravel web applications
+
 ### Online Store Class Diagram:
 <img src="https://github.com/adavarski/onlineshop-php-laravel-docker/blob/main/pictures/onlinestore-class-diagram.png" width="900">
 
